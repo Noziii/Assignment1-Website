@@ -1,0 +1,148 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      background: url(/images/jess-bailey-5xjw079i6Q4-unsplash.jpg);
+      backdrop-filter: blur(20px);
+      background-size: cover;
+      height: 140vh;
+
+  }
+
+  .pg {
+    margin-left: 700px;
+    font-family: lucida handwriting;
+    font-size: 50px;
+    
+  }
+
+  nav {
+    background: rgba(53, 52, 52, 0.301);
+    backdrop-filter: blur(7px);
+    height: 90px;
+    width: 100%;
+    margin-top: -16px;
+  }
+
+  
+  nav ul li {
+    display: inline-block;
+    margin: 5px;
+    margin-left: 160px;
+    margin-top: 5px;
+  }
+  
+  nav ul li a {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  a.active {
+    background: rgb(63, 61, 61);
+    color: white;
+    padding: 5px 5px;
+    border-radius: 15px;
+  }
+
+  div.img:hover{
+    border: 3px solid rgb(78, 75, 75);
+    color: rgba(132, 132, 132, 0.555);
+}
+
+  .leftcolumn {
+    float: left;
+    width: 38%;
+    margin-top: 10px;
+    margin-left: 80px;
+  }
+  
+  
+  .rightcolumn {
+    float: left;
+    width: 100%;
+    padding-left: 20px;
+    margin-left: 750px;
+    margin-top: -800px;
+ }
+  
+  
+  .img {
+    background-color: #aaa;
+    width: 450px;
+    padding: 20px;
+  }
+
+  .blogone {
+      width: 500px;
+      height: 200px;
+      margin-top: -30px;
+      margin-left: -20px;
+      background-color: rgb(255, 255, 255);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      
+  }
+
+  .blogtwo{
+    width: 500px;
+    height: 250px;
+    margin-top: -20px;
+    margin-left: -20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+  }
+  
+  .blogthree{
+    width: 500px;
+    height: 250px;
+    margin-top: -20px;
+    margin-left: -20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+  }
+
+  .blogfour{
+    width: 500px;
+    height: 250px;
+    margin-top: -20px;
+    margin-left: -20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+
+  }
+  
+  .card {
+    background-color: rgb(218, 206, 206);
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 30px;
+    border-radius: 15px;
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+
+    
+  }
+   
